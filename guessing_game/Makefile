@@ -24,4 +24,4 @@ docs:
 
 .PHONY: fmt
 fmt:
-	rustfmt ./src/*.rs
+	cargo fmt
